@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apple Store - Products</title>
+  <style>
+
+/* Section styles */
+.p {
+    background-color: #ffffff;
+    padding: 2px;
+    padding-top:100px ;
+  }
+  
+  .p h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;        
+  }
+  
+  .p .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* p column styles */
+  .p-col {
+    width: 250px;
+    margin: 15px;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+  }
+
+.p-col:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+  
+  .p-col img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .p-col h3 {
+    font-size: 18px;
+  }
+  
+  </style>
+</head>
+<body>
+    <section class="p">
+        <h1>Products</h1>
+        <div class="row">
+            
+            <div class="p-col">
+                <a href="product-ipad.html">
+                <img src="ipads.jpg">
+                <h3>Ipods</h3>
+                </a>
+            </div>
+        
+            <div class="p-col">
+                <a href="product-mackbook.html">
+                <img src="mackbook.jpg">
+                <h3>Mackbooks</h3>
+                </a>
+            </div>
+    
+    
+            <div class="p-col">
+                <a href="product-earpods.html">
+                <img src="earpods.jpg">
+                <h3>Earpods</h3>
+                </a>
+            </div>
+    
+    
+            <div class="p-col">
+                <a href="product-mobiles.html">
+                <img src="mobiles.jpg">
+                <h3>Iphone</h3>
+                </a>
+            </div>
+
+
+            <div class="p-col">
+                <a href="product-watch.html">
+                <img src="iwatch.jpg">
+                <h3>Apple Watch</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
