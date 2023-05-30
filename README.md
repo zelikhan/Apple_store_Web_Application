@@ -2,6 +2,7 @@
 ![image](https://github.com/zelikhan/Apple_store_Web_Application/assets/114800813/df451ed0-fa02-4006-8830-45b1374689f6)
 
 
+
 ![image](https://github.com/zelikhan/Apple_store_Web_Application/assets/114800813/3ead3605-fe46-4ec8-880b-b13749f83ee6)
 
 
